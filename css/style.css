@@ -204,6 +204,7 @@ hr {
   line-height: 15px;
   border: none;
   padding: 0px 0px 0px 13px;
+  outline: none;
 }
 
 .dd-menu-item {
