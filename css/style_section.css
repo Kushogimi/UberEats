@@ -324,16 +324,148 @@ hr {
 .main__hero {
   background: url("../img/hero.jpg") center center / cover;
   width: 100%;
+  padding: 80px 0 80px 0;
 }
 
 .main__hero-info {
+  background: #fff;
+  display: inline-block;
+  padding: 37px 29px 38px 38px;
 }
 
 .main__hero-title {
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  color: #1d1d1d;
+  margin: 0 0 55px 0;
+  padding: 0 55px 0 0;
+}
+
+.main__hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main__hero-desc {
+  font-size: 14px;
+  line-height: 16px;
+  color: #626262;
+  padding: 1px 0 0 0;
 }
 
 .main__hero-time {
+  display: inline-block;
+  background: #262626;
+  border-radius: 16px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  padding: 8px 18px 9px 15px;
+}
+
+.main__nav {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  padding: 31px 0 29px 0;
+}
+
+.main__nav-panel {
+  display: flex;
+  align-items: center;
+}
+
+.nav-panel_btn {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 19px;
+  color: #626262;
+  margin: 0 41px 0 0;
+}
+
+.nav-panel_btn:first-child {
+  color: #327430;
+}
+
+.nav-panel_btn:active {
+  color: #327430;
+}
+
+.main__content {
+  padding: 56px 0 15px 0;
+}
+
+.main__content-title {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 34px;
+  margin: 0 0 31px 0;
+}
+
+.main__content-items {
+  display: grid;
+  grid-template-columns: repeat(2, 6fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 49px;
+}
+
+.main__nav {
+  display: none;
+}
+
+.main__content-item {
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0 0px 15px;
+  height: 158px;
+}
+
+.main__content-item:hover {
+  background: rgba(117, 117, 117, 0.04);
+}
+
+.main__content-item_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__content-item_title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 15px 0 4px 0;
+}
+
+.main__content-item_desc {
+  font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  margin: 0 0 58px 0;
+}
+
+.main__content-item_price {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  padding: 0 0 14px 0;
+  margin: 0 0 0 0;
+}
+
+.main__content-item_image {
+}
+
+.content-item_image {
+  width: 100%;
+  height: 100%;
+}
+
+.hr {
+  display: none;
+  background: #757575;
+  width: 50px;
+  height: 1px;
 }
